@@ -32,4 +32,5 @@ public class Discount {
         }
         throw new RuntimeException("Unknown discount type");
     }
+
 }
