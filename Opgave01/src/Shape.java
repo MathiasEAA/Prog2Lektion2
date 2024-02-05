@@ -15,4 +15,11 @@ public abstract class Shape {
 
     public abstract double getArea();
 
+    public String getX() {
+        return "x: " +  x;
+    }
+
+    public String getY() {
+        return "y: " + y;
+    }
 }
